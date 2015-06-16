@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <script src="assets/jquery.min.js" type="text/javascript"></script>
+    <link href="assets/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="col-md-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="pabnel-title">Facebook Posts<h4>
+            </div>
+            <div class="panel-body">
+              <table id="table" class="table table-bordered table-condensed table-striped">
+                <thead>
+                  <tr>
+                    <td>Post Messsage</td>
+                    <td>Likes</td>
+                    <td>Shares</td>
+                    <td>Comments</td>
+                  </tr>
+                </thead>
+                <tbody>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/main.js"></script>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1453046271639677', //1455813928047324',
+          xfbml      : true,
+          version    : 'v2.3'
+        });
+	myApp.init();
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "//connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+  </body>
+</html>

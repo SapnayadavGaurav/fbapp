@@ -1,0 +1,28 @@
+{
+  "name": "fbapp",
+  "version": "1.0.0",
+  "description": "\"Facebook Page Posts Tracking\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SapnayadavGaurav/fbapp.git"
+  },
+  "keywords": [
+    "facebook",
+    "posts",
+    "tracking"
+  ],
+  "author": "sapyad.8.win@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SapnayadavGaurav/fbapp/issues"
+  },
+  "homepage": "https://github.com/SapnayadavGaurav/fbapp#readme",
+  "dependencies": {
+    "express": "^4.12.4",
+    "http": "0.0.0"
+  }
+}

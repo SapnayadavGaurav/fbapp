@@ -18,7 +18,7 @@ var myApp = {
      this.getPosts();
    },
    getPosts: function() {
-     FB.api('/happiestminds', function(response) {
+     FB.api('/happiestminds?fields=posts{message,likes,shares,comments}', function(response) {
        console.log(response);
      });
    }

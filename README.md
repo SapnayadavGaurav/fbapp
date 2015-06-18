@@ -6,10 +6,10 @@ Facebook Page Posts Tracking App which will give the summary of post message, li
 
 Installation Procedure
 ----------------------
-# Install Node and in command prompt execute ```npm install```
-# Copy properties.json.example to properties.json in client directory
-# specify proper facebook app ID and facebook script version
-# Run using node
+- Install Node and in command prompt execute ```npm install```
+- Copy properties.json.example to properties.json in client directory
+- specify proper facebook app ID and facebook script version
+- Run using node
 ``` node server.js [host] [port]```
 
 

@@ -1,5 +1,6 @@
 <html>
   <head>
+    <link href="assets/favicon.ico" rel="shortcut icon" />
     <script src="assets/jquery.min.js" type="text/javascript"></script>
     <link href="assets/bootstrap.min.css" rel="stylesheet" />
   </head>
@@ -30,23 +31,5 @@
       </div>
     </div>
     <script src="assets/main.js"></script>
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '1453046271639677', //1455813928047324',
-          xfbml      : true,
-          version    : 'v2.3'
-        });
-	myApp.init();
-      };
-
-      (function(d, s, id){
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) {return;}
-         js = d.createElement(s); js.id = id;
-         js.src = "//connect.facebook.net/en_US/sdk.js";
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));
-    </script>
   </body>
 </html>

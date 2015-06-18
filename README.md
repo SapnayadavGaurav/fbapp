@@ -6,6 +6,7 @@ Facebook Page Posts Tracking App which will give the summary of post message, li
 
 Installation Procedure
 ----------------------
+- Clone this repo using ```git clone git@github.com:SapnayadavGaurav/fbapp.git```
 - Install Node and in command prompt execute ```npm install```
 - Execute ```bower install```
 - Copy properties.json.example to properties.json in client directory

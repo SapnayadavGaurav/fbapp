@@ -1,7 +1,7 @@
 var myApp = {
    access_token: '',
    table : $("#table"),
-   init: function (){
+   init: function () {
      FB.login(function(response) {
        if ('authResponse' in response && typeof response.authResponse !== 'undefined') {
          var access_token =   FB.getAuthResponse()['accessToken'];
@@ -26,6 +26,10 @@ var myApp = {
 
 
 $(document).ready(function() {
+  /**
+   * @description : Calling properties.json to get facebook based requirements
+   * @author : Pradeep Patro <pradeeppatro16@gmail.com>
+   */
   $.ajax({
     url: "./properties.json",
     dataType: 'json',
@@ -34,6 +38,14 @@ $(document).ready(function() {
       var fbappid = data.fbappid,
           fbscriptversion = data.fbscriptversion;
 
+	  /**
+       * @description : Adding Facebook's Javascript Sdk to the <head> asynchronusly 
+       * @author : facebook
+	   * @param: object d : Browsers DOM object
+	   *         string s : script tag
+	   *         string id : for script tag's id 
+	   * @return null
+       */
       (function(d, s, id){
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) {return;}

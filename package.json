@@ -1,10 +1,10 @@
 {
   "name": "fbapp",
   "version": "1.0.0",
-  "description": "\"Facebook Page Posts Tracking\"",
+  "description": "Facebook Page Posts Tracking",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo Error: no test specified && exit 1"
   },
   "repository": {
     "type": "git",

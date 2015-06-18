@@ -1,0 +1,27 @@
+{
+  "name": "fbapp",
+  "version": "0.1.0",
+  "homepage": "https://github.com/SapnayadavGaurav/fbapp",
+  "description": "\"Facebook Page Posts Tracking\"",
+  "main": "index.html",
+  "keywords": [
+    "facebook",
+    "pages",
+    "posts"
+  ],
+  "authors": [
+    "Sapna Yadav <sapyad.8.win@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.5"
+  }
+}
